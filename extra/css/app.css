@@ -1,0 +1,9 @@
+body {
+  padding-bottom: 5rem;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  margin: 0.8rem 0;
+}
