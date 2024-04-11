@@ -22,7 +22,7 @@ defmodule Site.RootLayout do
         <link rel="stylesheet" href="/css/app.css" />
       </head>
       <body>
-        <%= @inner_content |> render() |> Phoenix.HTML.raw() %>
+        <.inner_content content={render(@inner_content)}/>
       </body>
 
       <%= if Mix.env() == :dev do %>

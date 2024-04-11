@@ -18,9 +18,8 @@ defmodule Site.SingleLayout do
         <% end %>
       </header>
 
-      <%= @inner_content |> render() |> Phoenix.HTML.raw() %>
+      <.inner_content content={render(@inner_content)}/>
     </article>
     """
-    |> Phoenix.HTML.Safe.to_iodata()
   end
 end
