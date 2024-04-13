@@ -73,6 +73,5 @@ defmodule Site.HomePage do
       </ul>
     </main>
     """
-    |> Phoenix.HTML.Safe.to_iodata()
   end
 end

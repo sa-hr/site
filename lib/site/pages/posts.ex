@@ -22,6 +22,5 @@ defmodule Site.Posts do
       <% end %>
     </ul>
     """
-    |> Phoenix.HTML.Safe.to_iodata()
   end
 end
