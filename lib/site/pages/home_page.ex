@@ -15,8 +15,8 @@ defmodule Site.HomePage do
       <p>
         0x7f is an ASCII representation of the DEL charachter. Besides that it's a
         family run company that does Elixir product development and has launched
-        a bookeeping startup SmartAccount. On this site you can find an engineering
-        blog and a personal site of Andrei.
+        a bookeeping startup <a href="https://smartaccount.hr">SmartAccount</a>. 
+        On this site you can find an engineering blog and a personal site of Andrei.
       </p>
 
       <blockquote>
