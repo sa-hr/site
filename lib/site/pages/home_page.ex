@@ -62,7 +62,7 @@ defmodule Site.HomePage do
 
       <hr style="margin-top: 3rem;" />
 
-      <h2>Link</h2>
+      <h2>Links</h2>
 
       <ul>
         <%= for link <- @data["links"] do %>
