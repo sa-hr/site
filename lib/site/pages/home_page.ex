@@ -15,7 +15,7 @@ defmodule Site.HomePage do
       <p>
         0x7f is an ASCII representation of the DEL charachter. Besides that it's a
         family run company that does Elixir product development and has launched
-        a bookeeping startup <a href="https://smartaccount.hr">SmartAccount</a>. 
+        a bookkeeping startup <a href="https://smartaccount.hr">SmartAccount</a>.
         On this site you can find an engineering blog and a personal site of Andrei.
       </p>
 
@@ -28,10 +28,10 @@ defmodule Site.HomePage do
 
       <hr style="margin-top: 3rem;" />
 
-      <h2>Upcoming speaking events</h2>
+      <h2>2024. speaking events</h2>
 
       <ul>
-        <%= for talk <- @data["talks"] do %>
+        <%= for talk <- Enum.reverse(@data["talks"]) do %>
           <li>
             <span><%= talk["date"] %></span>
 
