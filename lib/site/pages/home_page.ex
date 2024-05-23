@@ -19,6 +19,11 @@ defmodule Site.HomePage do
         On this site you can find an engineering blog and a personal site of Andrei.
       </p>
 
+      <figure>
+        <img src="/andrei_dors24.jpg" alt="Andrei at opening of DORS/CLUC 2024" />
+        <figcaption>Andrei at opening of DORS/CLUC 2024</figcaption>
+      </figure>
+
       <blockquote>
         Andrei has been a software developer for over a decade, boasting experience in
         both frontend and backend development. In recent years, he has shifted
