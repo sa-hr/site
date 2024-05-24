@@ -76,6 +76,21 @@ defmodule Site.HomePage do
           </li>
         <% end %>
       </ul>
+
+      <hr style="margin-top: 3rem;" />
+
+      <h2>Member of</h2>
+      <div style="text-align: center;">
+        <a href="https://open.hr" style="text-decoration: none;">
+          <img src="/hropen.png" style="width: 200px;" />
+        </a>
+        <a href="https://radiona.org" style="text-decoration: none;">
+          <img src="/radiona.png" style="width: 200px; margin-left: 20px;" />
+        </a>
+        <a href="/posts/ripe-atlas-ambassador" style="text-decoration: none;">
+          <img src="/ripe.png" style="width: 200px; margin-left: 20px;" />
+        </a>
+      </div>
     </main>
     """
   end
