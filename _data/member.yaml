@@ -1,0 +1,11 @@
+- name: HrOpen
+  logo_url: /hropen.png
+  href: https://open.hr
+
+- name: Radiona
+  logo_url: /radiona.png
+  href: https://radiona.org
+
+- name: RIPE NCC Atlas
+  logo_url: /ripe.png
+  href: /posts/ripe-atlas-ambassador
