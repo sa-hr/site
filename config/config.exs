@@ -12,7 +12,7 @@ config :web_dev_utils, :reload_log, true
 config :web_dev_utils, :reload_url, "'wss://' + location.host + '/ws'"
 
 config :tableau, :config,
-  url: "http://localhost:4999",
+  url: "https://0x7f.dev",
   timezone: "Europe/Zagreb",
   markdown: [
     mdex: [
