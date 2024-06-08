@@ -21,7 +21,7 @@ Last thing to note, I'm not a novice Linux user. But still, having used macOS fo
 
 This was the largest hurdle. Framework does not ship to Croatia, so I had to go through my friend [Oliwer](https://oliwer.me/) in Poland so I could even order the device.
 
-The laptop got to him in five days, and then to me in another five. The shipping ended up being around 40 euros, which I guess is not that bad. The upside is that the marketplace ships to Croatia. And to make things even more complicated, they fulfill from Taiwan, so even fewer reasons to just ship to Croatia.
+The laptop got to him in five days, and then to me in another five. The shipping ended up being around 40 euros, which I guess is not that bad. The upside is that the marketplace (where you buy parts, not laptops) ships to Croatia. And to make things even more complicated, they fulfill from Taiwan, so even fewer reasons to just ship to Croatia.
 
 Next thing was getting RAM and SSD. I wanted a 96 GB kit, but I could not find one for a reasonable price. In the end, I ended up with:
 
