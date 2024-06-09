@@ -18,7 +18,7 @@ defmodule Site.RootLayout do
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
-        <link rel="stylesheet" href="/css/app.css" />
+        <link rel="stylesheet" href="/css/main.css" />
       </head>
       <body>
         <.inner_content content={render(@inner_content)}/>
