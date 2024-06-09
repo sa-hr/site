@@ -404,3 +404,9 @@ header pre {
     font-size: 1em;
   }
 }
+
+@media (max-width: 480px) {
+  header pre {
+    font-size: 0.8em;
+  }
+}
