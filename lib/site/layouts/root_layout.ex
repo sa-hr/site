@@ -18,7 +18,6 @@ defmodule Site.RootLayout do
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
-        <link rel="stylesheet" href="https://unpkg.com/magick.css" />
         <link rel="stylesheet" href="/css/app.css" />
       </head>
       <body>

@@ -6,10 +6,12 @@ defmodule Site.HomePage do
     permalink: "/"
 
   def template(assigns) do
+    logo = File.read!("extra/logo.txt")
+
     ~H"""
     <main>
       <header>
-        <img src="/logo.svg" />
+        <pre><%= logo %></pre>
       </header>
 
       <p>
@@ -80,14 +82,13 @@ defmodule Site.HomePage do
       <hr style="margin-top: 3rem;" />
 
       <h2>Member of</h2>
-
-      <div style="text-align: center;">
+      <ul>
         <%= for org <- @data["member"] do %>
-          <a href={org["href"]} style="text-decoration: none;">
-            <img src={org["logo_url"]} alt={org["name"]} style="width: 200px; margin-right: 20px;" />
-          </a>
+          <li>
+            <a href={org["href"]}><%= org["name"] %></a>
+          </li>
         <% end %>
-      </div>
+      </ul>
     </main>
     """
   end
