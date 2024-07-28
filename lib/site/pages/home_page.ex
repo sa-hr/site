@@ -12,6 +12,9 @@ defmodule Site.HomePage do
     <main>
       <header>
         <pre><%= logo %></pre>
+        <h2>Andrei C</h2>
+        <p>Founding Engineer at <a href="https://joinploy.com?utm_source=0x7f">Ploy</a></p>
+        <p>Co-Founder at <a href="https://smartaccount.hr">SmartAccount</a></p>
       </header>
 
       <p>

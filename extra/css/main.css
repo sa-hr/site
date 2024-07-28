@@ -400,3 +400,8 @@ header pre {
     font-size: 0.8em;
   }
 }
+
+header h2,
+header p {
+  text-align: center;
+}
