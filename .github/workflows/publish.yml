@@ -10,6 +10,8 @@ jobs:
       contents: read
       deployments: write
     name: Publish to Cloudflare Pages
+    env:
+      MIX_ENV: prod
     steps:
       - uses: actions/checkout@v3
 
