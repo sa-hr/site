@@ -3,6 +3,9 @@ defmodule Site.RootLayout do
   use Tableau.Layout
 
   def template(assigns) do
+    css = if assigns[:page][:style] == :new, do: "new.css", else: "main.css"
+    assigns = Map.put(assigns, :css, css)
+
     ~H"""
     <!DOCTYPE html>
     <html lang="en">
@@ -10,7 +13,7 @@ defmodule Site.RootLayout do
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
-          <%= [@page[:title], "0x7f"]
+          <%= [@page[:title], "Andrei Crnkovic"]
           |> Enum.filter(& &1)
           |> Enum.intersperse("|")
           |> Enum.join(" ") %>
@@ -18,26 +21,14 @@ defmodule Site.RootLayout do
 
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
         <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
-        <link rel="stylesheet" href="/css/main.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href={"/css/#{@css}"} />
       </head>
       <body>
         <.inner_content content={render(@inner_content)}/>
-
-        <footer>
-          <p xmlns:cc="http://creativecommons.org/ns#">
-            This work is licensed under
-            <a
-              href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
-              target="_blank"
-              rel="license noopener noreferrer"
-              style="display:inline-block;">
-                CC BY-SA 4.0
-            </a>
-            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
-            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
-            <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
-          </p>
-        </footer>
       </body>
 
       <%= if Mix.env() == :dev do %>
