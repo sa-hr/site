@@ -142,6 +142,10 @@ defmodule Site.HomePage do
           LinkedIn
         </a>
       </div>
+      <div class="footer__logo">
+        <img src="/crnkovic.png" />
+        <a href="https://crnkovic.hr">Crnkovic Legacy Holdings</a>
+      </div>
     </footer>
     """
   end
