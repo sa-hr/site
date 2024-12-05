@@ -11,15 +11,7 @@ body {
 .main,
 .footer {
   padding: 16px;
-}
-.main .hero {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 5%;
-}
-.main .me {
-  display: block;
-  height: 320px;
+  max-width: 1800px;
 }
 .main h1 {
   font-size: 40px;

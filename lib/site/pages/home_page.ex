@@ -9,27 +9,23 @@ defmodule Site.HomePage do
   def template(assigns) do
     ~H"""
     <main class="main">
-      <div class="hero">
-        <img class="me" src="/me.png" />
-      </div>
-      <h1>
-        Andrei Crnkovic is the Founding Engineer at <em>Ploy</em>, Advisor at
-        <em>SmartAccount</em>, and Vice President at <em>HrOpen</em>
-      </h1>
       <div class="main__info">
+        <h1>
+          Andrei Crnkovic is the Founding Engineer at <em>Ploy</em>, Advisor at
+          <em>SmartAccount</em>, and Vice President at <em>HrOpen</em>
+        </h1>
         <p>
-          With over 15 years of software development experience, Andrei brings a
-          unique blend of technical expertise, financial acumen, and leadership
-          to his roles. His mixed background as both a licensed accountant and
-          seasoned developer allows him to bridge the gap between business needs
-          and technical solutions.
+          With 15 years of software development experience, Andrei brings to the
+          table a mix of technical knowledge, financial experience, and leadership
+          to his roles. His varied background as both a licensed accountant and
+          seasoned developer allows him to help meet business needs and come up
+          with technical solutions.
         </p>
         <p>
-          Currently shaping the future of access management at an early-stage
-          startup, advising a boutique accounting firm, and championing open
-          source initiatives, he combines strategic thinking with hands-on
-          expertise to drive impactful results across technology and business
-          domains.
+          Currently shaping the future of access management at an early-stage startup,
+          advising a startup accounting firm, and championing open source initiatives,
+          he combines strategic thinking with hands-on expertise to drive impactful
+          results across technology and business domains.
         </p>
       </div>
       <div class="main__work">
