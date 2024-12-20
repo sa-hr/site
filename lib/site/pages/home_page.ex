@@ -11,8 +11,8 @@ defmodule Site.HomePage do
     <main class="main">
       <div class="main__info">
         <h1>
-          Andrei Crnkovic is the Founding Engineer at <em>Ploy</em>, Advisor at
-          <em>SmartAccount</em>, and Vice President at <em>HrOpen</em>
+          Andrei Crnkovic is the Vice President at <em>HrOpen</em>, Advisor at
+          <em>SmartAccount</em> 
         </h1>
         <p>
           With 15 years of software development experience, Andrei brings to the
@@ -22,40 +22,10 @@ defmodule Site.HomePage do
           with technical solutions.
         </p>
         <p>
-          Currently shaping the future of access management at an early-stage startup,
-          advising a startup accounting firm, and championing open source initiatives,
-          he combines strategic thinking with hands-on expertise to drive impactful
-          results across technology and business domains.
+          Currently, he is advising a startup accounting firm and championing open source initiatives, including promoting the 'Public Money, Public Code' movement in Croatia. He combines strategic thinking with hands-on expertise to drive impactful results across both technology and business domains.
         </p>
       </div>
       <div class="main__work">
-        <div class="main__work-item">
-          <div class="main__work-item-left">
-            <h3>
-              Founding Engineer at
-              <a href="https://joinploy.com/" target="_blank">Ploy</a>
-            </h3>
-            <span>2024 — Current </span>
-          </div>
-          <div class="main__work-item-right">
-            <p>
-              I'm deeply involved in building and shaping our access management
-              and shadow IT platform from the ground up. As the first
-              engineering hire, I work in Elixir to develop core features while
-              staying closely connected to our customers' needs. My role bridges
-              technical development with practical value delivery - essential
-              for our growing startup.
-            </p>
-            <p>
-              Some of my key contributions include launching our AWS integration
-              and creating an innovative graph visualization system that gives
-              customers clear insights into their access patterns. I thrive on
-              making complex access management more straightforward and
-              actionable for our users, drawing on my full-stack expertise to
-              build intuitive features.
-            </p>
-          </div>
-        </div>
         <div class="main__work-item">
           <div class="main__work-item-left">
             <h3>
