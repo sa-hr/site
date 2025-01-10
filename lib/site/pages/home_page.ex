@@ -59,7 +59,7 @@ defmodule Site.HomePage do
           <div class="main__work-item-left">
             <h3>
               Vice President at
-              <a href="https://hropen.hr/" target="_blank">HrOpen</a>
+              <a href="https://open.hr/" target="_blank">HrOpen</a>
             </h3>
             <span>2022 — Current </span>
           </div>
