@@ -3,7 +3,7 @@ defmodule Site.RootLayout do
   use Tableau.Layout
 
   def template(assigns) do
-    css = if assigns[:page][:style] == :new, do: "new.css", else: "main.css"
+    css = "main.css"
     assigns = Map.put(assigns, :css, css)
 
     ~H"""
@@ -28,7 +28,29 @@ defmodule Site.RootLayout do
         <link rel="stylesheet" href={"/css/#{@css}"} />
       </head>
       <body>
-        <.inner_content content={render(@inner_content)}/>
+        <nav>
+          <h1><a href="/">Andrei's site</a></h1>
+          <p>
+            I am an open source advocate, licensed accountant, and elixir developer.
+          </p>
+          <ul>
+            <li>
+              Vice president at <a href="https://open.hr">HrOpen</a>
+            </li>
+            <li>
+              CEO at <a href="https://smartaccount.hr">SmartAccount</a>
+            </li>
+            <li>
+              Product engineer at <a href="https://contractbook.com">Contractbook</a>
+            </li>
+          </ul>
+          <p>
+            Feel free to email me at <a href="mailto:andrei@crnkovic.hr">andrei@crnkovic.hr</a>
+          </p>
+        </nav>
+        <main>
+          <.inner_content content={render(@inner_content)}/>
+        </main>
       </body>
 
       <%= if Mix.env() == :dev do %>
