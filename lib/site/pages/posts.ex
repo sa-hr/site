@@ -8,11 +8,6 @@ defmodule Site.Posts do
 
   def template(assigns) do
     ~H"""
-    <p>
-      Here you can find posts dating back to 2013, which is certanly not the first post I made,
-      but a lot were lost in backups. There is also a gap of 6 years that's missing.
-    </p>
-
     <ul>
       <%= for post <- @posts do %>
         <li>
